@@ -1,0 +1,123 @@
+body , html {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+#navbar {
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    min-width: 250px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgb(94, 89, 89);
+    background-color: rgb(247, 247, 253);
+}
+#main-doc {
+    position: absolute;
+    margin-left: 300px;
+    padding: 20px;
+    margin-bottom: 100px;
+    text-align: justify;
+}
+code {
+    display: block;
+    background-color: blanchedalmond;
+    padding: 5px;
+    white-space: pre-line;
+    text-align: left;
+    margin: 1em;
+}
+nav header {
+    display: block;
+    text-align: center;
+    padding: 25px;
+    font-size: 28px;
+    font-weight: 700;
+}
+.nav-link {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    color: black;
+}
+#navbar li {
+    position: relative;
+    list-style: none;
+    padding: 15px 30px;
+    width: inherit;
+    border-top: 1px solid;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100% - 95px);
+}
+main header {
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 600;
+}
+main article {
+    line-height: 2.5em;
+}
+
+@media (max-width: 800px){
+    nav header {
+        display: block;
+        text-align: center;
+        padding: 25px;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    #navbar {
+        position:fixed;
+        top: 0px;
+        left: 0px;
+        width: 160px;
+        height: 100%;
+        border-right: solid;
+        border-color: rgb(94, 89, 89);
+    }
+    #main-doc {
+        position: absolute;
+        margin-left: 250px;
+        padding: 10px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 610px) {
+    .nav-link {
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        color: black;
+        text-align: center;
+    }
+    nav header {
+        display: block;
+        text-align: center;
+        padding: 25px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    #navbar {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: auto;
+        height: auto;
+        border-right: none;
+        border-color: none;
+    }
+    #main-doc {
+        position: relative;
+        margin-left: 0px;
+        padding: 10px;
+        margin-bottom: 100px;
+    }
+}
