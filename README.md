@@ -1,2 +1,2 @@
-<h1>JS Documentation</h1>
+# JS Documentation
 Responsive Js Documentation Web Page
